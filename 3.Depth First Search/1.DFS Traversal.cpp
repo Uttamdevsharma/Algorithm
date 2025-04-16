@@ -1,19 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 vector<int> adj_list[1005];
 bool vis[1005];
 
 void dFs(int src){
     cout << src << " ";
-    vis[src] = true;
+    vis[src]=true;
 
-    for(int child : adj_list[src]){
+    
+    for (int child : adj_list[src])
+    {
         if(!vis[child]){
             dFs(child);
         }
     }
+    
 
 }
+
+
 
 int main(){
 
@@ -21,13 +27,11 @@ int main(){
     cin >> n >> e;
 
     while(e--){
-
         int a,b;
         cin >> a >> b;
         adj_list[a].push_back(b);
         adj_list[b].push_back(a);
     }
-
     memset(vis,false,sizeof(vis));
 
     dFs(0);

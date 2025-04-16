@@ -1,0 +1,1 @@
+{"name":"Local: 1","url":"c:\\Users\\Uttam\\Desktop\\Algorithm\\2.Breadth First Search\\1.BFS Traversal.cpp","tests":[{"id":1742845425619,"input":"7 7\n0 1\n1 3\n1 4\n3 2\n4 6\n3 5\n4 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Uttam\\Desktop\\Algorithm\\2.Breadth First Search\\1.BFS Traversal.cpp","group":"local","local":true}

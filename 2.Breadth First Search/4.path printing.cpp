@@ -48,7 +48,7 @@ int main(){
     int s,d;
     cin >> s >> d;
 
-    bFs(s);
+    bFs(s) ;
 
     vector<int>path;
     int node=d;

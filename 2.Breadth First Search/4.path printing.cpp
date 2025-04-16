@@ -43,6 +43,7 @@ int main(){
 
     }
     memset(vis,false,sizeof(vis));
+    memset(parent , -1 , sizeof(parent));
     
     int s,d;
     cin >> s >> d;
@@ -57,4 +58,8 @@ int main(){
         node = parent[node];
     }
     reverse(path.begin(),path.end());
+
+    for(int x : path){
+        cout << x << " ";
+    }
 }
